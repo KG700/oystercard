@@ -1,5 +1,5 @@
 # README
-## Oystercard project. 
+## Oystercard project.
 
 ## Monday 24th Feb working with Kate
 
@@ -18,7 +18,7 @@ run bundle init - creates empty gemfile ready for me to add info to.
  - added info as per Kate's research (while I was away) should research this a little myself.
 
  run "bundle"
- 
+
  - adds gemfile.lock to project dir.
 
 Done
@@ -32,7 +32,7 @@ run code to pass this test
 ### Step 4
 attr_reader :variable (list any extra variables after, by comma)\
 this makes a 'window' in the object that allows other objects to see inside and 'read' the value of a/the specified variable. \
-poke around online/google/relish for resources to help with rspec syntax when forming the tests. It's important to have the test run correctly so that we know the 'failure' is to do with the code failing, not the rspec being written incorrectly. 
+poke around online/google/relish for resources to help with rspec syntax when forming the tests. It's important to have the test run correctly so that we know the 'failure' is to do with the code failing, not the rspec being written incorrectly.
 
 #### User story
 ```
@@ -96,7 +96,7 @@ As a customer
 I need to touch in and out.
 ```
 
-more investigation into the 'subject' nomenclature. 
+more investigation into the 'subject' nomenclature.
 
 it seems like adding variables to the att_reader (and .initialize) means that we can kind of use variables as methods? investigate this. \
 it was hard to separate the creation of in_journey_status as a variable from the defining of .touch_in, try to think/find if there may have been a better approach for this?
@@ -140,3 +140,11 @@ This one was driven by Karla. It seemed straightforward to complete. added exter
 learned about `send` which allows us to "invoke" `.privatemethod` without actually 'calling' it. kind of. \
 used new rspec syntax `expect {}.to change{}.by()`.\
 need to remember to be careful about the +ve or -ve nature of the number we are changing by.
+
+### Step 11
+#### User story
+```
+In order to pay for my journey
+As a customer
+I need to know where I've travelled from
+```
