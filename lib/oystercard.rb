@@ -45,4 +45,8 @@ class Oystercard
   def deduct(fare)
     @balance -= fare
   end
+
+  # more private methods:
+  # exceeds max balance
+  # below min balance
 end
